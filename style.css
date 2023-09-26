@@ -246,8 +246,8 @@ header {
 .conhecimentos {
     display: grid;
     grid-template-columns: repeat(16, 1fr);
-    grid-template-rows: repeat(6, .8rem);
-    row-gap: 6rem;
+    grid-template-rows: repeat(6, 6rem);
+    row-gap: .5rem;
 }
 
 .conhecimento:nth-child(1) {
@@ -278,6 +278,20 @@ header {
 .conhecimento:nth-child(6) {
     grid-column: 11/14;
     grid-row: 5/-1;
+}
+
+.conhecimento-img-wrapper{
+    grid-column: 7/11;
+    grid-row: 3/7;
+    width: 100%;
+    object-fit: cover;
+}
+
+.conhecimento-img-wrapper img{
+    width: inherit;
+    height: inherit;
+    
+    border-radius: 1rem;
 }
 
 .sessao-header {
