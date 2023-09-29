@@ -558,7 +558,7 @@ header {
 
 .orçamento-wrapper{
     width: 60%;
-    height: 80%;
+    height: auto;
     background-color: rgba(255, 255, 255, 0.700);
     border-radius: 2rem;
     position: relative;
@@ -581,18 +581,30 @@ header {
 }
 
 .sessao-orçamento form{
-    background-color: blue;
     display: grid;
     grid-template-columns: auto 1fr;
     column-gap: 2rem;
-    row-gap: 2rem;
+    row-gap: 3rem;
     padding: 2rem;
+    align-items: center;
+}
+
+.group-layout div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-align: justify;
 }
 
 .sessao-orçamento label{
     font-family: var(--incosolata);
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: bolder;
+}
+
+.sessao-orçamento #Js{
+    height: 40px;
 }
 
 .sessao-orçamento input[type="number"]{
