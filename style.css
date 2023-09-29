@@ -541,3 +541,73 @@ header {
     width: 100%;
     height: 2rem;
 }
+
+.sessao-orçamento{
+    width: 100%;
+    height: 100vh;
+    background: url('https://www.benner.com.br/wp-content/uploads/2021/03/AdobeStock_205010941-min-scaled-1.jpeg');
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+
+.orçamento-wrapper{
+    width: 60%;
+    height: 80%;
+    background-color: rgba(255, 255, 255, 0.700);
+    border-radius: 2rem;
+    position: relative;
+    
+}
+
+.sessao-orçamento h1{
+    /* position: absolute;
+    top: -4rem;
+    left: 3rem; */
+    padding: 1rem 3rem;
+    text-align: center;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background: linear-gradient(to right, var(--cor-principal), #00416A);
+    font-family: var(--Montserrat);
+    font-size: 3rem;
+    color: white;
+    font-weight: 400;
+}
+
+.sessao-orçamento form{
+    background-color: blue;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    column-gap: 2rem;
+    row-gap: 2rem;
+    padding: 2rem;
+}
+
+.sessao-orçamento label{
+    font-family: var(--incosolata);
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.sessao-orçamento input[type="number"]{
+    font-family: var(--incosolata);
+    width: 4rem;
+    font-size: 2rem;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    padding: .3rem;
+}
+
+.sessao-orçamento .btn-orçamento{
+    text-transform: uppercase;
+    padding: 1rem;
+    cursor: pointer;
+    grid-column: 2;
+}
