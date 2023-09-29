@@ -8,6 +8,10 @@
     text-decoration: none
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;500;600&family=Montserrat+Alternates:wght@300;400;500;600&family=Mooli&display=swap');
 
 :root {
@@ -184,6 +188,7 @@ header {
     top: 0;
     right: -20rem;
     transition: all 0.4s linear;
+    z-index: 999;
 }
 
 .show-menu .sideBar {
@@ -557,7 +562,7 @@ header {
 }
 
 .orçamento-wrapper{
-    width: 60%;
+    width: 80%; /*60*/
     height: auto;
     background-color: rgba(255, 255, 255, 0.700);
     border-radius: 2rem;
@@ -584,9 +589,10 @@ header {
     display: grid;
     grid-template-columns: auto 1fr;
     column-gap: 2rem;
-    row-gap: 3rem;
+    row-gap: 1.5rem;
     padding: 2rem;
     align-items: center;
+    max-height: 70%;
 }
 
 .group-layout div{
@@ -623,3 +629,56 @@ header {
     cursor: pointer;
     grid-column: 2;
 }
+
+
+footer{
+    width: 100%;
+    height: 10rem;
+    background-color: #2d2d2d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.footer-content{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-content p{
+    font-family: var(--Mooli);
+    color: #a7a7a7;
+    font-size: 1rem;
+}
+
+.social-list a{
+    margin: 0px 2rem;
+    color: #a7a7a7;
+    font-size: 1.5rem;
+}
+
+.social-list ul{
+    display: flex;
+}
+
+#linkTopo{
+    position: fixed;
+    right: 2rem;
+    bottom: 1rem;
+    width: 3rem;
+    height: 3rem;
+    color: white;
+    background: linear-gradient(to right, var(--cor-principal), #00416A);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: all 0.3s;
+}
+
+#linkTopo:hover{
+    box-shadow: 0rem 0rem .5rem white;
+}
+
