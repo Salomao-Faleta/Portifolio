@@ -188,7 +188,7 @@ header {
     top: 0;
     right: -20rem;
     transition: all 0.4s linear;
-    z-index: 999;
+    z-index: 100;
 }
 
 .show-menu .sideBar {
