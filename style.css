@@ -700,9 +700,36 @@ footer {
         /*area dos conehcimentos muito grande para os conhecimentos atuais (c/ lorem) preencher as infor certas e verificar*/
     }
 
+
+    .sessao-orçamento h1 {
+        font-size: 2rem;
+        color: red;
+    }
+
+    .sessao-orçamento label {
+        font-size: 1.3rem;
+
+    }
+
     /* .conhecimento-img-wrapper img {
         display: none;
     } */
+
+    .sessao-contato {
+        width: 100%;
+        display: flex;
+    }
+
+    .contato-wrapper {
+        width: 100%;
+        display: flex;
+
+    }
+    
+
+    .contato-wrapper .contato-right {
+        width: 100%;
+    }
 
 
 
@@ -734,4 +761,63 @@ footer {
 
 
 
+    .sessao-contato {
+        width: 100%;
+        display: flex;
+    }
+
+    .contato-wrapper {
+        width: 100%;
+        display: flex;
+
+    }
+
+    .contato-wrapper .contato-left {
+        display: none;
+    }
+    
+
+    .contato-wrapper .contato-right {
+        width: 100%;
+        position: relative;
+    }
+
+    .contato-right h1{
+        position: absolute;
+        top: 0;
+        left: 0;
+        font-size: 2rem;
+    }
+    
+    .sessao-orçamento h1 {
+        font-size: 1rem;
+        color: green;
+    }
+
+    .sessao-orçamento #Js {
+        height: 30px;
+    }
+
+    .sessao-orçamento form {
+        padding: .5rem;
+    }
+
+    .sessao-orçamento label {
+        font-size: .8rem;
+
+    }
+
+    .sessao-orçamento .btn-orçamento {
+        padding: 0.4rem;
+    }
+    
+    .btn-submit {
+        width: auto;
+    }
+
+    .footer-content p {
+        font-size: .6rem;
+    }
+    
+    
 }
