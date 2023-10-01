@@ -8,7 +8,7 @@
     text-decoration: none
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
@@ -155,12 +155,12 @@ header {
 
 }
 
-.card-info .button{
+.card-info .button {
     width: 8rem;
     height: 2.5rem;
 }
 
-.btn{
+.btn {
     color: white;
     padding: 0.5rem 2rem;
     text-transform: uppercase;
@@ -290,17 +290,17 @@ header {
     grid-row: 5/-1;
 }
 
-.conhecimento-img-wrapper{
+.conhecimento-img-wrapper {
     grid-column: 7/11;
     grid-row: 3/7;
     width: 100%;
     object-fit: cover;
 }
 
-.conhecimento-img-wrapper img{
+.conhecimento-img-wrapper img {
     width: inherit;
     height: inherit;
-    
+
     border-radius: 1rem;
 }
 
@@ -385,7 +385,7 @@ header {
     opacity: .8;
 }
 
-.card:hover .card-img-wrapper img{
+.card:hover .card-img-wrapper img {
     opacity: .3;
 }
 
@@ -448,14 +448,14 @@ header {
 }
 
 .card:hover .card-info,
-.card:hover{
+.card:hover {
     bottom: 1rem;
     opacity: 1;
     visibility: visible;
 
 }
 
-.sessao-contato{
+.sessao-contato {
     width: 100%;
     height: 100vh;
     background-color: #272727;
@@ -464,7 +464,7 @@ header {
     align-items: center;
 }
 
-.contato-wrapper{
+.contato-wrapper {
     width: 70%;
     display: flex;
     box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.9);
@@ -472,20 +472,20 @@ header {
 
 }
 
-.contato-wrapper .contato-left{
+.contato-wrapper .contato-left {
     width: 35%;
     background-image: url(images/img-wrapper-contact.jfif);
     background-position: center;
     background-size: cover;
 }
 
-.contato-wrapper .contato-right{
+.contato-wrapper .contato-right {
     background-color: #eee;
     padding: 3rem 10rem;
     width: 65%;
 }
 
-.sessao-contato h1{
+.sessao-contato h1 {
     font-family: var(--Montserrat);
     text-align: center;
     color: #272727;
@@ -494,7 +494,7 @@ header {
     width: 100%;
 }
 
-.sessao-contato form{
+.sessao-contato form {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -502,16 +502,16 @@ header {
     align-items: center;
 }
 
-.input-group{
+.input-group {
     position: relative;
 }
 
-.input-group textarea{
+.input-group textarea {
     max-width: 25rem;
     max-height: 5rem;
 }
 
-.sessao-contato form .field{
+.sessao-contato form .field {
     background: transparent;
     border: none;
     width: 20rem;
@@ -523,7 +523,7 @@ header {
     margin: 1rem 0px;
 }
 
-.sessao-contato form .field-label{
+.sessao-contato form .field-label {
     position: absolute;
     font-family: var(--incosolata);
     text-transform: uppercase;
@@ -533,21 +533,21 @@ header {
     transition: all 0.3s;
 }
 
-.field:focus ~ label{
+.field:focus~label {
     top: 0;
     font-size: 1rem;
 }
 
-.field:focus{
+.field:focus {
     border-bottom: 1px solid;
 }
 
-.btn-submit{
+.btn-submit {
     width: 100%;
     height: 2rem;
 }
 
-.sessao-orçamento{
+.sessao-orçamento {
     width: 100%;
     height: 100vh;
     background: url('https://www.benner.com.br/wp-content/uploads/2021/03/AdobeStock_205010941-min-scaled-1.jpeg');
@@ -561,16 +561,17 @@ header {
 
 }
 
-.orçamento-wrapper{
-    width: 80%; /*60*/
+.orçamento-wrapper {
+    width: 80%;
+    /*60*/
     height: auto;
     background-color: rgba(255, 255, 255, 0.700);
     border-radius: 2rem;
     position: relative;
-    
+
 }
 
-.sessao-orçamento h1{
+.sessao-orçamento h1 {
     /* position: absolute;
     top: -4rem;
     left: 3rem; */
@@ -585,7 +586,7 @@ header {
     font-weight: 400;
 }
 
-.sessao-orçamento form{
+.sessao-orçamento form {
     display: grid;
     grid-template-columns: auto 1fr;
     column-gap: 2rem;
@@ -595,7 +596,7 @@ header {
     max-height: 70%;
 }
 
-.group-layout div{
+.group-layout div {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -603,17 +604,17 @@ header {
     text-align: justify;
 }
 
-.sessao-orçamento label{
+.sessao-orçamento label {
     font-family: var(--incosolata);
     font-size: 2rem;
     font-weight: bolder;
 }
 
-.sessao-orçamento #Js{
+.sessao-orçamento #Js {
     height: 40px;
 }
 
-.sessao-orçamento input[type="number"]{
+.sessao-orçamento input[type="number"] {
     font-family: var(--incosolata);
     width: 4rem;
     font-size: 2rem;
@@ -623,7 +624,7 @@ header {
     padding: .3rem;
 }
 
-.sessao-orçamento .btn-orçamento{
+.sessao-orçamento .btn-orçamento {
     text-transform: uppercase;
     padding: 1rem;
     cursor: pointer;
@@ -631,7 +632,7 @@ header {
 }
 
 
-footer{
+footer {
     width: 100%;
     height: 10rem;
     background-color: #2d2d2d;
@@ -641,29 +642,29 @@ footer{
 
 }
 
-.footer-content{
+.footer-content {
     width: 60%;
     display: flex;
     justify-content: space-around;
 }
 
-.footer-content p{
+.footer-content p {
     font-family: var(--Mooli);
     color: #a7a7a7;
     font-size: 1rem;
 }
 
-.social-list a{
+.social-list a {
     margin: 0px 2rem;
     color: #a7a7a7;
     font-size: 1.5rem;
 }
 
-.social-list ul{
+.social-list ul {
     display: flex;
 }
 
-#linkTopo{
+#linkTopo {
     position: fixed;
     right: 2rem;
     bottom: 1rem;
@@ -676,9 +677,61 @@ footer{
     align-items: center;
     border-radius: 50%;
     transition: all 0.3s;
+    cursor: pointer;
 }
 
-#linkTopo:hover{
+#linkTopo:hover {
     box-shadow: 0rem 0rem .5rem white;
 }
 
+
+
+@media (min-width: 665px) and (max-width: 1110px) {
+    .banner h1 {
+        font-size: 2.5rem;
+    }
+
+    .banner p {
+        font-size: 1.5rem;
+    }
+
+    .conhecimentos {
+        grid-template-rows: repeat(6, 10rem);
+        /*area dos conehcimentos muito grande para os conhecimentos atuais (c/ lorem) preencher as infor certas e verificar*/
+    }
+
+    /* .conhecimento-img-wrapper img {
+        display: none;
+    } */
+
+
+
+}
+
+@media (min-width: 320px) and (max-width: 664px) {
+    .banner h1 {
+        font-size: 2.2rem;
+    }
+
+    .banner p {
+        font-size: 1.3rem;
+    }
+
+    .conhecimentos {
+        grid-template-rows: repeat(6, 10rem);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .conhecimento-img-wrapper img {
+        display: none;
+    }
+
+
+    .conhecimento .conhecimento-header {
+        border-top: 1px solid #4b4b4b;
+    }
+
+
+
+}
