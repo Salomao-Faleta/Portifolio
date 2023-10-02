@@ -725,10 +725,11 @@ footer {
         display: flex;
 
     }
-    
+
 
     .contato-wrapper .contato-right {
         width: 100%;
+        padding: 5rem 10rem;
     }
 
 
@@ -775,23 +776,22 @@ footer {
     .contato-wrapper .contato-left {
         display: none;
     }
-    
+
 
     .contato-wrapper .contato-right {
         width: 100%;
         position: relative;
     }
 
-    .contato-right h1{
+    .contato-right h1 {
         position: absolute;
         top: 0;
         left: 0;
         font-size: 2rem;
     }
-    
+
     .sessao-orçamento h1 {
         font-size: 1rem;
-        color: green;
     }
 
     .sessao-orçamento #Js {
@@ -800,17 +800,18 @@ footer {
 
     .sessao-orçamento form {
         padding: .5rem;
+        row-gap: 2.5rem;
     }
 
     .sessao-orçamento label {
-        font-size: .8rem;
+        font-size: 1.2rem;
 
     }
 
     .sessao-orçamento .btn-orçamento {
         padding: 0.4rem;
     }
-    
+
     .btn-submit {
         width: auto;
     }
@@ -818,6 +819,6 @@ footer {
     .footer-content p {
         font-size: .6rem;
     }
-    
-    
+
+
 }
