@@ -17,6 +17,7 @@ html {
 :root {
     --cor-principal: #0088FF;
     --cor-segundaria: #2d2d2d;
+    --cor-linear: linear-gradient(to left, var(--cor-principal), #00416A);
     --incosolata: 'Inconsolata', monospace;
     --Montserrat: 'Montserrat Alternates', sans-serif;
     --Mooli: 'Mooli', sans-serif;
@@ -456,14 +457,120 @@ header {
 
 }
 
+
+
 .sessao-contato{
     background-color: var(--cor-segundaria);
+    width: 100%;
+    height: 100vh;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    flex-direction: column;
+    overflow: hidden;
 }
+
+.contato-width{
+    width: 80%;
+    height: 85%;
+    background-color: #f2f2f2;
+    border-radius: 2rem;
+}
+
+
+.contato-width .contato-header h1{
+    background: var(--cor-linear);
+    padding: 1rem 3rem;
+    text-align: center;
+    border-top-right-radius: 2rem;
+    border-top-left-radius: 2rem;
+    background: linear-gradient(to right, var(--cor-principal), #00416A);
+    font-family: var(--Montserrat);
+    font-size: 3rem;
+    color: white;
+    font-weight: 400;
+}
+
+
+.sessao-contato .contato-content{
+    width: 100%;
+    height: inherit;
+    background-color: blue;
+    display: flex;
+    
+}
+
+.contato-content .contato-content--left{
+    background-color: red;
+    width: 30%;
+}
+
+.contato-content--left img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.contato-content .contato-content--right{
+    background-color: teal;
+    width: 70%;
+}
+
+.contato-content--right form{
+    background-color: #a7a7a7;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+.contato-content--right form .group{
+    width: 80%;
+    margin: 5px 0px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contato-content--right form .group label{
+    font-size: 1.2rem;
+    font-weight: bolder;
+
+}
+
+.contato-content--right form .group .input{
+    background-color: transparent;
+    outline: none;
+    border: 0;
+    border-bottom: .3rem dashed #2d2d2d;
+    height: 3rem;
+    transition: all 1s linear;
+    color: white;
+    font-size: 1.2rem;
+}
+
+
+.contato-content--right form .group .input:focus{
+    border-bottom: .3rem solid #2d2d2d;
+    background-color: #d1d0d0;
+    font-weight: bolder;
+
+}
+
+
+.contato-content--right form .group .contato-erro{
+    color: red;
+    font-family: var(--Mooli);
+    font-size: 1rem;
+    margin-top: .4rem;
+    font-weight: bolder;
+    letter-spacing: .2rem;
+}
+
 
 
 
@@ -498,8 +605,8 @@ header {
     left: 3rem; */
     padding: 1rem 3rem;
     text-align: center;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
+    border-top-right-radius: 2rem;
+    border-top-left-radius: 2rem;
     background: linear-gradient(to right, var(--cor-principal), #00416A);
     font-family: var(--Montserrat);
     font-size: 3rem;
