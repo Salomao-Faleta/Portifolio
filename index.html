@@ -230,18 +230,18 @@
                         <form id="form" class="form">
                             <div class="group">
                                 <label for="name">Nome:</label>
-                                <input type="text" name="name" id="name" class="input" placeholder="Digite seu nome:">
-                                <span class="contato-erro">Nome precisa ter no mínimo 2 caracteres</span>
+                                <input type="text" name="name" id="name" class="input required" placeholder="Digite seu nome:" oninput="nameValidate()">
+                                <span class="span-erro">Nome precisa ter no mínimo 2 caracteres</span>
                             </div>
                             <div class="group">
                                 <label for="email">Email:</label>
-                                <input type="text" name="email" id="email" class="input" placeholder="Digite seu melhor email:">
-                                <span class="contato-erro">Digite um e-mail válido</span>
+                                <input type="text" name="email" id="email" class="input required" placeholder="Digite seu melhor email:" oninput="emailValidate()">
+                                <span class="span-erro">Digite um e-mail válido</span>
                             </div>
                             <div class="group">
                                 <label for="textarea">Mensagem:</label>
-                                <textarea name="textarea" id="textarea" class="input" placeholder="Deixe seu feedback para o desenvolvedor:)  "></textarea>
-                                <span class="contato-erro">Campo não pode ser enviado vazio</span>
+                                <textarea name="textarea" id="textarea" class="input required" placeholder="Deixe seu feedback para o desenvolvedor:)" oninput="msgValidate()"></textarea>
+                                <span class="span-erro">Campo não pode ser enviado vazio</span>
                             </div>
                             <div class="group">
                                 <button type="submit" class="btn btn-contato">Enviar!</button>

@@ -556,19 +556,20 @@ header {
 
 .contato-content--right form .group .input:focus{
     border-bottom: .3rem solid #2d2d2d;
-    background-color: #d1d0d0;
+    background-color: #bfbfbf89;
     font-weight: bolder;
 
 }
 
 
-.contato-content--right form .group .contato-erro{
+.contato-content--right form .group .span-erro{
     color: red;
     font-family: var(--Mooli);
     font-size: 1rem;
     margin-top: .4rem;
     font-weight: bolder;
     letter-spacing: .2rem;
+    display: none;
 }
 
 
