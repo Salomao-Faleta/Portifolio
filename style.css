@@ -459,7 +459,7 @@ header {
 
 
 
-.sessao-contato{
+.sessao-contato {
     background-color: var(--cor-segundaria);
     width: 100%;
     height: 100vh;
@@ -470,7 +470,7 @@ header {
     overflow: hidden;
 }
 
-.contato-width{
+.contato-width {
     width: 80%;
     height: 85%;
     background-color: #f2f2f2;
@@ -478,7 +478,7 @@ header {
 }
 
 
-.contato-width .contato-header h1{
+.contato-width .contato-header h1 {
     background: var(--cor-linear);
     padding: 1rem 3rem;
     text-align: center;
@@ -492,31 +492,28 @@ header {
 }
 
 
-.sessao-contato .contato-content{
+.sessao-contato .contato-content {
     width: 100%;
     height: inherit;
-    background-color: blue;
     display: flex;
-    
+
 }
 
-.contato-content .contato-content--left{
-    background-color: red;
+.contato-content .contato-content--left {
     width: 30%;
 }
 
-.contato-content--left img{
+.contato-content--left img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.contato-content .contato-content--right{
-    background-color: teal;
+.contato-content .contato-content--right {
     width: 70%;
 }
 
-.contato-content--right form{
+.contato-content--right form {
     background-color: #a7a7a7;
     width: 100%;
     height: 100%;
@@ -528,7 +525,7 @@ header {
 }
 
 
-.contato-content--right form .group{
+.contato-content--right form .group {
     width: 80%;
     margin: 5px 0px;
     padding: 10px;
@@ -536,13 +533,13 @@ header {
     flex-direction: column;
 }
 
-.contato-content--right form .group label{
+.contato-content--right form .group label {
     font-size: 1.2rem;
     font-weight: bolder;
 
 }
 
-.contato-content--right form .group .input{
+.contato-content--right form .group .input {
     background-color: transparent;
     outline: none;
     border: 0;
@@ -554,7 +551,7 @@ header {
 }
 
 
-.contato-content--right form .group .input:focus{
+.contato-content--right form .group .input:focus {
     border-bottom: .3rem solid #2d2d2d;
     background-color: #bfbfbf89;
     font-weight: bolder;
@@ -562,7 +559,7 @@ header {
 }
 
 
-.contato-content--right form .group .span-erro{
+.contato-content--right form .group .span-erro {
     color: red;
     font-family: var(--Mooli);
     font-size: 1rem;
@@ -728,7 +725,14 @@ footer {
         grid-template-rows: repeat(6, 10rem);
         /*area dos conehcimentos muito grande para os conhecimentos atuais (c/ lorem) preencher as infor certas e verificar*/
     }
+    
+    .contato-content .contato-content--left {
+        display: none;
+    }
 
+    .contato-content .contato-content--right {
+        width: 100%;
+    }
 
     .sessao-orçamento h1 {
         font-size: 2rem;
@@ -739,6 +743,8 @@ footer {
         font-size: 1.3rem;
 
     }
+
+
 
 
 }
@@ -766,6 +772,40 @@ footer {
     .conhecimento .conhecimento-header {
         border-top: 1px solid #4b4b4b;
     }
+
+    .contato-width .contato-header h1{
+        font-size: 2rem;
+        color: red;
+    } 
+
+    .contato-content .contato-content--left {
+        display: none;
+    }
+
+    .contato-content--right form .group {
+        padding: 2.5px;
+    }
+
+    .contato-content .contato-content--right {
+        width: 100%;
+    }
+
+    #textarea{
+        width: 100%;
+        height: 30px;
+        
+    }
+
+    
+
+    .contato-content--right form .group .span-erro {
+        color: red;
+        font-size: 13px;
+        margin-top: 0.2rem;
+        font-weight: bolder;
+        letter-spacing: .0rem;
+    }
+
 
     .sessao-orçamento h1 {
         font-size: 1rem;
